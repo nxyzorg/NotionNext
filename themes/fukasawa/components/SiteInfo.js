@@ -24,6 +24,8 @@ function SiteInfo({ title }) {
             <i className='fas fa-shield-alt' />
             <a href={siteConfig('BEI_AN_LINK')} className='mr-2'>
               {siteConfig('BEI_AN')}
+          </a>
+          <br />
         )}
         <BeiAnGongAn />
         <span className='hidden busuanzi_container_site_pv'>
